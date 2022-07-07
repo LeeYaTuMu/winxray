@@ -5,8 +5,8 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 2022-7-7, server: 103.90.220.27, port: 80, type: vmess, uuid: d97ee737-7bc0-4dca-acf1-85135ed4d97e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇸🇬 us255 节点更新 bit.ly/36b6iJh, server: youtube-bai-piao-wang-zhe.98848.xyz, port: 11610, type: trojan, password: 6d2b7ae6-7b67-4116-b6ae-3069c54d2042}
+  - {name: 202277, server: 103.90.220.27, port: 80, type: vmess, uuid: d97ee737-7bc0-4dca-acf1-85135ed4d97e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 节点更新 bit.ly/36b6iJh, server: youtube-bai-piao-wang-zhe.98848.xyz, port: 11610, type: trojan, password: 6d2b7ae6-7b67-4116-b6ae-3069c54d2042}
   - {name: nf, server: sxdx-nf.jiashumao.net, port: 35401, type: trojan, password: 2b3d1fe4-b0b2-34f8-a791-fdcfc9d68bfb, sni: nf.jiashumao.net}
   - {name: ID10电线联通 限速3M, server: 172.64.93.136, port: 443, type: vmess, uuid: 3eadc957-f6d5-3a3b-9289-c985ef4c8322, alterId: 0, cipher: auto, tls: true, servername: testgroup2.091.se, network: ws, ws-opts: {path: /xxX5, headers: {Host: testgroup2.091.se}}}
   - {name: ID7电线联通 限速3M, server: 172.64.147.71, port: 443, type: vmess, uuid: 3eadc957-f6d5-3a3b-9289-c985ef4c8322, alterId: 0, cipher: auto, tls: true, servername: testgroup2.091.se, network: ws, ws-opts: {path: /xxX2, headers: {Host: testgroup2.091.se}}}
@@ -112,8 +112,8 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 2022-7-7
-      - 🇸🇬 us255 节点更新 bit.ly/36b6iJh
+      - 202277
+      - 节点更新 bit.ly/36b6iJh
       - nf
       - ID10电线联通 限速3M
       - ID7电线联通 限速3M
@@ -219,8 +219,8 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 2022-7-7
-      - 🇸🇬 us255 节点更新 bit.ly/36b6iJh
+      - 202277
+      - 节点更新 bit.ly/36b6iJh
       - nf
       - ID10电线联通 限速3M
       - ID7电线联通 限速3M
@@ -326,8 +326,8 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 2022-7-7
-      - 🇸🇬 us255 节点更新 bit.ly/36b6iJh
+      - 202277
+      - 节点更新 bit.ly/36b6iJh
       - nf
       - ID10电线联通 限速3M
       - ID7电线联通 限速3M
@@ -432,8 +432,8 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 2022-7-7
-      - 🇸🇬 us255 节点更新 bit.ly/36b6iJh
+      - 202277
+      - 节点更新 bit.ly/36b6iJh
       - nf
       - ID10电线联通 限速3M
       - ID7电线联通 限速3M
@@ -538,8 +538,8 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 2022-7-7
-      - 🇸🇬 us255 节点更新 bit.ly/36b6iJh
+      - 202277
+      - 节点更新 bit.ly/36b6iJh
       - nf
       - ID10电线联通 限速3M
       - ID7电线联通 限速3M
@@ -644,8 +644,8 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 2022-7-7
-      - 🇸🇬 us255 节点更新 bit.ly/36b6iJh
+      - 202277
+      - 节点更新 bit.ly/36b6iJh
       - nf
       - ID10电线联通 限速3M
       - ID7电线联通 限速3M
@@ -751,8 +751,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 2022-7-7
-      - 🇸🇬 us255 节点更新 bit.ly/36b6iJh
+      - 202277
+      - 节点更新 bit.ly/36b6iJh
       - nf
       - ID10电线联通 限速3M
       - ID7电线联通 限速3M
@@ -874,8 +874,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 2022-7-7
-      - 🇸🇬 us255 节点更新 bit.ly/36b6iJh
+      - 202277
+      - 节点更新 bit.ly/36b6iJh
       - nf
       - ID10电线联通 限速3M
       - ID7电线联通 限速3M
@@ -4384,4 +4384,3 @@ rules:
  - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
  - GEOIP,CN,🎯 全球直连
  - MATCH,🐟 漏网之鱼
-Steam Key
